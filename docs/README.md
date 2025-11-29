@@ -1,7 +1,7 @@
 # COMP 3005 Final Project  (01/12)
 # Trisha Toocaram, 101267603
 
-## Demo link ## : https://www.youtube.com/watch?v=j-ViYk58uUY
+## Demo link : https://www.youtube.com/watch?v=j-ViYk58uUY
 
 ## Description
 This system simulates a management application for a fitness club.  
@@ -30,6 +30,7 @@ All operations interact with a PostgreSQL database using SQLAlchemy ORM and no r
 
 
 ## Files 
+```text
 project/
 │
 ├── app/
@@ -59,6 +60,7 @@ project/
 │
 ├── ERD.pdf     # ER diagram, relational schema + normalization notes
 └── README.md
+```
 
 
 
@@ -76,7 +78,7 @@ In pgAdmin or psql:
 ```
 **Note**: Update app/db.py with your PostgreSQL username + password.
 
-### **3. Create the tables
+### **3. Create the tables**
 In terminal at the root, (not in /app)
 ```bash
     python3 create_db.py
